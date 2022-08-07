@@ -2,6 +2,7 @@ package thread;
 
 public class MyRunnable implements Runnable{
 
+	//This code prints the name of the current thread in the method run.
 
 	public void run() {
 		System.out.println(Thread.currentThread().getName());

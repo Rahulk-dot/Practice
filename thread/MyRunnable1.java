@@ -1,5 +1,13 @@
 package thread;
 
+
+//This code here illustrates two Threads running together.
+//Two threads 
+	//1. 'Exp 1 Thread' in run method.
+	//2. 'Main Thread' in main method.
+//In this code 'Thread.sleep(100)' is used to delay the particular thread's execution.
+//It is used in both the thread so that they could execute simultaneously.
+
 public class MyRunnable1 implements Runnable{
 	
 	public static int myCount = 0;
